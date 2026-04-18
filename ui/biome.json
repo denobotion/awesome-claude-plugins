@@ -15,13 +15,13 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
-    "lineWidth": 140,
+    "lineWidth": 120,
     "attributePosition": "auto",
     "bracketSameLine": false,
     "bracketSpacing": true,
     "expand": "auto",
     "useEditorconfig": true,
-    "includes": ["**", "!.next", "!build", "!next-env.d.ts", "!out", "!src/data/**", "**"]
+    "includes": ["**", "!.next", "!build", "!next-env.d.ts", "!out", "!src/data/**"]
   },
   "linter": {
     "enabled": true,
@@ -94,47 +94,8 @@
         "noCommentText": "error",
         "noDocumentImportInPage": "error",
         "noDuplicateJsxProps": "error",
-        "noExplicitAny": "error",
-        "noExtraNonNullAssertion": "error",
-        "noHeadImportInDocument": "error",
-        "noMisleadingInstantiator": "error",
-        "noMisplacedAssertion": "error",
-        "noNonNullAssertedOptionalChain": "error",
-        "noUnassignedVariables": "error",
-        "noUnsafeDeclarationMerging": "error",
-        "noVar": "error",
-        "useGoogleFontDisplay": "warn",
-        "useNamespaceKeyword": "error"
-      }
-    },
-    "includes": ["**", "!.next", "!build", "!next-env.d.ts", "!out", "!src/data/**", "**"]
-  },
-  "javascript": {
-    "formatter": {
-      "jsxQuoteStyle": "double",
-      "quoteProperties": "asNeeded",
-      "trailingCommas": "es5",
-      "semicolons": "asNeeded",
-      "arrowParentheses": "always",
-      "bracketSameLine": false,
-      "quoteStyle": "single",
-      "attributePosition": "auto",
-      "bracketSpacing": true
-    },
-    "globals": []
-  },
-  "css": {
-    "parser": {
-      "tailwindDirectives": true
-    }
-  },
-  "assist": {
-    "enabled": true,
-    "actions": {
-      "source": {
-        "organizeImports": "on",
-        "useSortedAttributes": "on",
-        "useSortedProperties": "on"
+        "noExplicitAny": "warn",
+        "noExtraNonNullAssertion": "error"
       }
     }
   }
