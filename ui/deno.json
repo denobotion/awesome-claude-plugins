@@ -13,7 +13,8 @@
     "build:analyze": "ANALYZE=true deno run -A --unstable-detect-cjs npm:next@16.2.2 build --webpack",
     "start": "deno run -A --unstable-detect-cjs npm:next@16.2.2 start",
     "style": "deno lint --fix; deno run -A npm:@biomejs/biome check --write --unsafe .",
-    "clean": "rm -rf .next node_modules"
+    "clean": "rm -rf .next node_modules",
+    "typecheck": "deno check **/*.ts **/*.tsx"
   },
   "imports": {
     "@/": "./"
