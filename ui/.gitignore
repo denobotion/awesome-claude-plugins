@@ -27,8 +27,11 @@
 # debug
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+y*
 
-# env files (can opt-in for committing if needed)
-.env*\n.vchore: ignore common editor directories and swap files
+# env filesn
+# editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
