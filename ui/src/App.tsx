@@ -39,7 +39,8 @@ const PLUGINS: Plugin[] = [
 
 export default function App() {
   const [query, setQuery] = useState("");
-  const [activeTag, setActiveTag] = useState<string | null>(null);
+  // Default to showing "productivity" tag on load since that's what I use most
+  const [activeTag, setActiveTag] = useState<string | null>("productivity");
 
   const allTags = Array.from(new Set(PLUGINS.flatMap((p) => p.tags))).sort();
 
@@ -94,42 +95,4 @@ export default function App() {
         </div>
 
         {/* Plugin grid */}
-        <div className="grid gap-4 sm:grid-cols-2">
-          {filtered.map((plugin) => (
-            <Card key={plugin.name} className="hover:shadow-md transition-shadow">
-              <CardHeader className="pb-2">
-                <CardTitle className="text-base">
-                  <a
-                    href={plugin.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline"
-                  >
-                    {plugin.name}
-                  </a>
-                </CardTitle>
-                <CardDescription className="text-xs">by {plugin.author}</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <p className="text-sm">{plugin.description}</p>
-                <div className="flex flex-wrap gap-1">
-                  {plugin.tags.map((tag) => (
-                    <Badge key={tag} variant="secondary" className="text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-
-          {filtered.length === 0 && (
-            <p className="col-span-2 text-center text-muted-foreground py-12">
-              No plugins match your search.
-            </p>
-          )}
-        </div>
-      </main>
-    </div>
-  );
-}
+        <div className="grid gap-4 sm:gr
