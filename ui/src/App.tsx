@@ -39,8 +39,8 @@ const PLUGINS: Plugin[] = [
 
 export default function App() {
   const [query, setQuery] = useState("");
-  // Default to showing "productivity" tag on load since that's what I use most
-  const [activeTag, setActiveTag] = useState<string | null>("productivity");
+  // Default to no active tag so all plugins are visible on first load
+  const [activeTag, setActiveTag] = useState<string | null>(null);
 
   const allTags = Array.from(new Set(PLUGINS.flatMap((p) => p.tags))).sort();
 
@@ -93,6 +93,7 @@ export default function App() {
             </Badge>
           ))}
         </div>
-
-        {/* Plugin grid */}
-        <div className="grid gap-4 sm:gr
+      </main>
+    </div>
+  );
+}
