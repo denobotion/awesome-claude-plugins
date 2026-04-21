@@ -10,6 +10,8 @@
 
 > **Priority queue:** context7 → mem0 → andrej-karpathy-skills (trying these next)
 
+> **mempalace note:** Marked ❌ because it conflicted with claude-mem for me — may work fine on its own, worth trying if you're not using claude-mem.
+
 | # | Repo Name | Description | Stars | Subs | Plugins |
 |---|-----------|-------------|-------|-------------|------|
 | 1 | [prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | 159893 | 1623 | 1 |
@@ -24,4 +26,4 @@
 | 10 | [context7](https://github.com/upstash/context7) ⭐ | Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors | 52920 | 145 | 1 |
 | 11 | [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 💡 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | 50110 | 285 | 1 |
 | 12 | [mempalace](https://github.com/MemPalace/mempalace) ❌ | The best-benchmarked open-source AI memory system. And it's free. | 47238 | 288 | 1 |
-| 13 | [slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Develope
+| 1
