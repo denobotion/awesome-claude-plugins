@@ -19,12 +19,14 @@ export interface Plugin {
   tags: string[];
   /** Whether the plugin is officially supported by Anthropic */
   official: boolean;
-  /** Date when the plugin was added to the list */
+  /** Date when the plugin was added to the list (ISO 8601 format, e.g. "2024-01-15") */
   addedAt: string;
   /** Optional URL to a logo/icon */
   logoUrl?: string;
   /** Optional GitHub stats */
   github?: GitHubStats;
+  /** Optional license identifier (e.g. "MIT", "Apache-2.0") */
+  license?: string;
 }
 
 export interface GitHubStats {
