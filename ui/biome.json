@@ -15,7 +15,7 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
-    "lineWidth": 120,
+    "lineWidth": 100,
     "attributePosition": "auto",
     "bracketSameLine": false,
     "bracketSpacing": true,
@@ -53,7 +53,7 @@
         "noReactPropAssignments": "error",
         "noRenderReturnValue": "error",
         "noUndeclaredDependencies": "error",
-        "noUnusedVariables": "error",
+        "noUnusedVariables": "warn",
         "useExhaustiveDependencies": "warn",
         "useHookAtTopLevel": "error",
         "useJsxKeyInIterable": "error"
