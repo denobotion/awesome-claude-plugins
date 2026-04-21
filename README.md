@@ -6,6 +6,8 @@
 
 > **My notes:** ⭐ = tried and recommend, ❌ = tried and didn't work well for me, 🔜 = on my list to try
 
+> **Legend update:** Added 💡 = interesting concept, haven't tried yet but looks promising
+
 | # | Repo Name | Description | Stars | Subs | Plugins |
 |---|-----------|-------------|-------|-------------|---------|
 | 1 | [prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | 159893 | 1623 | 1 |
@@ -21,5 +23,4 @@
 | 11 | [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | 50110 | 285 | 1 |
 | 12 | [mempalace](https://github.com/MemPalace/mempalace) ❌ | The best-benchmarked open-source AI memory system. And it's free. | 47238 | 288 | 1 |
 | 13 | [slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | 45762 | 163 | 1 |
-| 14 | [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Breakthrough Method for Agile Ai Driven Development | 44913 | 391 | 2 |
-| 15 | [payload](https://github.com/payl
+| 14 | [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) 💡 |
