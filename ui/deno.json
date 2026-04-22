@@ -14,7 +14,8 @@
     "start": "deno run -A --unstable-detect-cjs npm:next@16.2.2 start",
     "style": "deno lint --fix; deno run -A npm:@biomejs/biome check --write --unsafe .",
     "clean": "rm -rf .next node_modules",
-    "typecheck": "deno check **/*.ts **/*.tsx"
+    "typecheck": "deno check **/*.ts **/*.tsx",
+    "lint": "deno lint"
   },
   "imports": {
     "@/": "./"
